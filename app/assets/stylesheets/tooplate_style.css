@@ -8,6 +8,8 @@ body {
 	background-color: #0a1425;
 	background-repeat: repeat-x;
 	background-position: top;	
+	font-family: 'Orbitron', sans-serif;
+
 }
 
 a, a:link, a:visited { 
@@ -142,11 +144,6 @@ h6 { font-size: 14px; margin: 0 0 5px; padding: 0; }
 	margin-bottom: 0px;
 }
 
-hr {
-	margin-top: 0px;
-
-}
-
 #tooplate_menu ul {
 	display: block;
 	width: 600px;
@@ -175,7 +172,7 @@ hr {
 	width: 80px;
 	padding: 5px 0 0;
 	font-size: 16px;
-	color: #5473a8;	
+	color: #ffcc00;	
 	text-align: center;
 	text-decoration: none;
 	font-weight: 400;
@@ -220,6 +217,8 @@ hr {
 /* end of menu */
 
 #tooplate_middle { 
+	margin-left: 100px;
+	margin-right: 100px;
 	clear: both;
 	width: 800px;
 	height: 227px;
@@ -231,7 +230,7 @@ hr {
 #mid_title { 
 	font-size: 34px; 
 	font-weight: 400; 
-	color: #dceffc; 
+	color: #ffcc00;
 	margin-bottom: 20px; 
 	text-shadow: 1px 1px 3px #000; 
 }
@@ -483,7 +482,7 @@ margin-top: 15px;
 }
 
 #tooplate_footer_wrapper {
-	margin-top: 30px;
+	margin-top: 250px;
 	clear: both;
 	width: 100%;
 	border-top: 1px solid #111f37;
@@ -503,3 +502,5 @@ margin-top: 15px;
 	font-weight: normal;
 	color: #fff;
 }
+
+/* les rubriques */
