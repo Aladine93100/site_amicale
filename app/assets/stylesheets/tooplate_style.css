@@ -12,6 +12,32 @@ body {
 
 }
 
+#mid_title { 
+	font-size: 34px; 
+	font-weight: 400; 
+	color: #ffcc00;
+	margin-bottom: 20px; 
+	text-shadow: 1px 1px 3px #11001F;
+}
+
+#mid_titlebis { 
+	font-size: 34px; 
+	font-weight: 400; 
+	color: #ffcc00;
+	margin-bottom: 20px; 
+	text-shadow: 1px 1px 3px #11001F;
+}
+
+#sous-titre {
+	color: black !important;
+	text-shadow: 1px 1px 2px #11001F; 
+}
+
+#sous-titrebis {
+	color: white !important;
+	text-shadow: 1px 1px 2px #11001F; 
+}
+
 a, a:link, a:visited { 
 	color: #f9b507; 
 	font-weight: normal; 
@@ -32,7 +58,7 @@ a.more {
 	text-decoration: none; 
 	font-weight: 700; 
 	font-size: 11px; 
-	background: url(images/tooplate_more.png)  no-repeat top center; 
+	background: url(tooplate_more.png)  no-repeat top center; 
 	color: #46b8fb;
 }
 
@@ -114,7 +140,7 @@ h6 { font-size: 14px; margin: 0 0 5px; padding: 0; }
 	color:#fff; 
 	margin: 0; 
 	padding: 0 0 5px 20px; 
-	background: url(images/tooplate_list.png) no-repeat scroll 0 5px;  
+	background: url(tooplate_list.png) no-repeat scroll 0 5px;  
 }
 
 .tooplate_list li a { 
@@ -191,7 +217,7 @@ h6 { font-size: 14px; margin: 0 0 5px; padding: 0; }
 	clear: both;
 	width: 988px;
 	text-align: center;
-	background: url(images/tooplate_header.png) no-repeat top;
+	background: url(tooplate_header.png) no-repeat top;
 }
 
 #site_title { 
@@ -202,7 +228,7 @@ h6 { font-size: 14px; margin: 0 0 5px; padding: 0; }
 #site_title h1 { 
 	margin: 0; 
 	padding: 0; 
-}
+}		
 
 #site_title h1 a { 
 	display: block; 
@@ -211,7 +237,7 @@ h6 { font-size: 14px; margin: 0 0 5px; padding: 0; }
 	color: #fff; 
 	outline: none; 
 	text-indent: -10000px; 
-	background: url(images/tooplate_logo.png) no-repeat top left; 
+	background: url(tooplate_logo.png) no-repeat top left; 
 }
 
 /* end of menu */
@@ -221,18 +247,42 @@ h6 { font-size: 14px; margin: 0 0 5px; padding: 0; }
 	margin-right: 100px;
 	clear: both;
 	width: 800px;
-	height: 227px;
+	height: 407px;
 	padding: 100px 94px;
 	overflow: hidden;
-	background: url(images/tooplate_middle.png);
+	background: url(samba.png);
+	border-bottom: solid yellow; 
+	border-top: solid yellow;
+	margin-top: 50px;
+	margin-bottom: 0px;
 }
 
-#mid_title { 
-	font-size: 34px; 
-	font-weight: 400; 
-	color: #ffcc00;
-	margin-bottom: 20px; 
-	text-shadow: 1px 1px 3px #000; 
+#tooplate_middlebis { 
+	margin-left: 100px;
+	margin-right: 100px;
+	clear: both;
+	width: 800px;
+	height: 407px;
+	padding: 100px 94px;
+	overflow: hidden;
+	border-bottom: solid yellow; 
+	border-top: solid yellow;
+	margin-top: 50px;
+	margin-bottom: 0px;
+}
+
+#tooplate_middletuto { 
+	margin-left: 100px;
+	margin-right: 100px;
+	clear: both;
+	width: 800px;
+	height: 707px;
+	padding: 100px 94px;
+	overflow: hidden;
+	border-bottom: solid yellow; 
+	border-top: solid yellow;
+	margin-top: 50px;
+	margin-bottom: 0px;
 }
 
 #tooplate_middle p {
@@ -482,7 +532,7 @@ margin-top: 15px;
 }
 
 #tooplate_footer_wrapper {
-	margin-top: 250px;
+	margin-top: 50px;
 	clear: both;
 	width: 100%;
 	border-top: 1px solid #111f37;
@@ -504,3 +554,7 @@ margin-top: 15px;
 }
 
 /* les rubriques */
+
+.neon {
+	margin-left: 20px;
+}
