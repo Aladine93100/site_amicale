@@ -245,16 +245,16 @@ h6 { font-size: 14px; margin: 0 0 5px; padding: 0; }
 #tooplate_middle { 
 	margin-left: 100px;
 	margin-right: 100px;
+	padding-top: 30px;
+	margin-bottom: 70px;
 	clear: both;
 	width: 800px;
 	height: 407px;
-	padding: 100px 94px;
 	overflow: hidden;
-	background: url(samba.png);
 	border-bottom: solid yellow; 
 	border-top: solid yellow;
 	margin-top: 50px;
-	margin-bottom: 0px;
+	text-align: center;
 }
 
 #tooplate_middlebis { 
